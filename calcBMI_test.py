@@ -16,6 +16,21 @@ class bmitest(unittest.TestCase):
         # expect/assert
 
         self.assertEqual(result1,list1sorted)
+    def test_bmicalc(self):
+        # stub
+        h1=173
+        w1=73
+        # assume
+
+        bmi_result=24.39
+        # action
+
+        result1=BMI.bmicalc(w1,h1)
+        print(type(result1))
+
+        #expect/assert
+
+        self.assertEqual(result1,bmi_result)
 
 
 if __name__=='__main__':

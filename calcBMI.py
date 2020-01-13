@@ -1,7 +1,8 @@
 class BMI:
     @staticmethod
     def bmicalc(weight,height):
-        return weight/height**2
+        a=weight/(height/100)**2
+        return float("%.2f" % a)
     @staticmethod
     def BMIcheck(bmi):
         if bmi>=18.5 and bmi<=24.9:
