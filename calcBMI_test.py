@@ -1,6 +1,5 @@
 import unittest
-from src.calcBMI import BMI
-
+from calcBMI import BMI
 class bmitest(unittest.TestCase):
     def test_bubbleSort(self):
         # stub
